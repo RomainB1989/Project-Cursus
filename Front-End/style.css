@@ -1,0 +1,23 @@
+header {
+    height: 20%;
+    background-color: #EBD2A6;
+}
+
+header img{
+    margin: auto;
+}
+
+.box-contenu{
+    height: 60%;
+    background-color: #EBD2A6;
+}
+
+.menu{
+    height: 5%;
+    background-color: #BA3E25;
+}
+
+footer{
+    height: 15%;
+    background-color: #BA3E25;
+}
