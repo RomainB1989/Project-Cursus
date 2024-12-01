@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="utf8">
+        <meta name="description" content="Page Acceuil">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>L'EpiNature</title>
+        <!-- Fiches CSS -->
+        <link rel="stylesheet" href="./style.css">
+        <!-- Google Font -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Pangolin&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Pangolin&family=Sriracha&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <header>
+            <div class="wrag-bg">
+                <img class="img-bg" alt="Image Header Background" src="../Images/Pain-BackgroundN&B.jpg">
+            </div>
+            <div class="logo">
+                <a href="./accueil.html" target="_self"  class="center"><img src="../Images/L_EpiNature-NewColors-removebg.png" alt="Logo l'EpiNature" title="Logo l'Epinature"  class="center"></a>
+            </div>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="./accueil.html" target="_self">Accueil</a></li>
+                <li class="deroulant"><a href="#">Qui Sommes Nous ?</a>
+                    <ul class="sous">
+                    <li><a href="#">Présentation</a></li>
+                    <li><a href="#">Ou Nous Trouvez ?</a></li>
+                    <li><a href="./contact.html">Nous Contactez !</a></li>
+                    <li><a href="#">Nos Partenaires</a></li>
+                    </ul>
+                </li>
+                <li><a href="./gazette.html" target="_self">La Gazette du Boulanger</a></li>
+                <li class="deroulant"><a href="#">Nos Produits</a>
+                    <ul class="sous">
+                    <li><a href="#">Nos Pains</a></li>
+                    <li><a href="#">Nos Douceurs</a></li>
+                    <li><a href="#">Anciens Produits</a></li>
+                    </ul>
+                </li>
+                <li class="deroulant"><a href="#">Mon Compte</a>
+                    <ul class="sous">
+                    <li><a href="#">Mes Infos</a></li>
+                    <li><a href="#">Mes Commandes</a></li>
+                    <li><a href="#">Mes Avoirs, Promotions, Réductions</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Mon Panier</a></li>
+            </ul>
+        </nav>
+    
+        <main>
+            <section class="form-create">
+                <h2>REJOIGNEZ NOUS</h2>
+                <form method="" action="">
+                    <label for="nom">Nom :</label>
+                    <input type="text" name="nom" id="nom" placeholder="Ex: " required/>
+                    <label for="prenom">Prénom :</label>
+                    <input type="text" name="prenom" id="prenom" placeholder="Ex: " required/>
+                    <label for="email">Adresse Mail :</label>
+                    <input type="email" name="email" id="email" placeholder="Ex: adresse@test.fr"/>
+                    <label for="tel">Numéro de Téléphone :</label>
+                    <input type="tel" name="tel" id="tel" placeholder="Ex: " required>
+                    <label for="password">Mot de Passe :</label>
+                    <input type="password" name="password" id="password" required>
+                    <label for="password">Confirmer Mot de Passe :</label>
+                    <input type="password" name="password" id="password" required>
+                    <input type="submit" value="CREER VOTRE COMPTE" class="link" />
+                </form>
+            </section>
+            <section class="form-connect">
+                <h2>CONNECTEZ VOUS</h2>
+                <form method="" action="">
+                    <label for="email">Adresse Mail :</label>
+                    <input type="email" name="email" id="email" placeholder="Ex: " required/>
+                    <label for="password">Mot de Passe :</label>
+                    <input type="password" name="password" id="password" required>
+                    <label for="password">Confirmer Mot de Passe :</label>
+                    <input type="password" name="password" id="password" required>
+                    <input type="submit" value="CONNEXION" class="link" />
+                </form>
+            </section>
+        </main>
+        <footer>
+            <a href="./cgu-v.html" target="_self">Conditions Générales de ventes</a>
+            <a href="./mentions-légales.html" target="_self">Mentions Légales</a>
+            <div class="logo">
+                <a href="./accueil.html" target="_self"  class="center"><img src="../Images/L_EpiNature-NewColors-removebg.png" alt="Logo l'EpiNature" title="Logo l'Epinature"  class="center"></a>
+            </div>
+            <a href="./contact.html" target="_self">Contactez Nous</a>
+            <a href="https://fr-fr.facebook.com/Login.html/" target="_blank" class="lien-icone">
+                <img src="../Images/icone-lien-facebook-removebg.png" title="Facebook" alt="Lien Fcaebook">
+            </a>
+        </footer>
+    </body>
+
+</html>
