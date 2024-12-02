@@ -148,9 +148,22 @@ p{
   height: 1500px;
 }
 
+
+
+.form-create{
+    padding: 10px;
+}
+
+.form-connect{
+    padding: 10px;
+}
+
 .form-contact{
-    display: flex;
-    justify-items: center;
+    padding: 10px;
+}
+
+.info-contact{
+    padding: 10px;
 }
 
 h2{
