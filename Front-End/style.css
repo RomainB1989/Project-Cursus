@@ -2,6 +2,7 @@
 
 body{
     margin: 0;
+    background-color: #EBD2A6;
     color: #2F1E0E;
     font-family: Pangolin;
 }
@@ -129,12 +130,15 @@ nav > ul li:hover .sous{
     font-size: 12px;
 }
 
+/* Fin Menu Deroulant */
+
+
 /*  Contenu de page  */
 
 main{
     margin: 0;
     background-color: #EBD2A6;
-    height: 1000px;
+    /* height: 1000px; */
     color: #2F1E0E;
     font-family: Pangolin;
 }
@@ -143,31 +147,9 @@ p{
     margin: 0;
 }
 
-.conteneur{
-  margin: 50px;
-  height: 1500px;
-}
-
-
-
-.form-create{
-    padding: 10px;
-}
-
-.form-connect{
-    padding: 10px;
-}
-
-.form-contact{
-    padding: 10px;
-}
-
-.info-contact{
-    padding: 10px;
-}
-
 h2{
     margin: 0;
+    text-align: center;
     color: #2F1E0E;
     font-family: Pangolin;
     font-size: 20px;
