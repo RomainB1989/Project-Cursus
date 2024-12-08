@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="fr">
 <head>
     <meta charset="utf8">
@@ -7,70 +6,108 @@
     <title>L'EpiNature</title>
     <!-- Fiches CSS -->
     <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./accueil.css">
     <!-- Google Font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Pangolin&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Pangolin&family=Sriracha&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap" rel="stylesheet">
 </head>
-
 <body>
     <header>
-        <div class="wrag-bg">
-            <img class="img-bg" alt="Image Header Background" src="../Images/Pain-BackgroundN&B.jpg">
-        </div>
-        <div class="logo">
-            <a href="./accueil.html" target="_self"  class="center"><img src="../Images/L_EpiNature-NewColors-removebg.png" alt="Logo l'EpiNature" title="Logo l'Epinature"  class="center"></a>
-        </div>
+        <img class="img-head-bg" src="../Images/Bande-BackgroundN&B.jpg" alt="Image Header Background">
+        <a href="./accueil.html" target="_self"  class="logo-head">
+            <img src="../Images/L_EpiNature-NewColors-removebg.png" alt="Logo l'EpiNature" title="Logo l'Epinature">
+        </a>
     </header>
-    <nav>
-        <ul>
+    <nav class="menu">
+        <ul class="menu-desktop">       <!-- Menu Deroulant en Version Desktop et Tablette -->
             <li><a href="./accueil.html" target="_self">Accueil</a></li>
             <li class="deroulant"><a href="#">Qui Sommes Nous ?</a>
-                <ul class="sous">
-                <li><a href="#">Présentation</a></li>
-                <li><a href="#">Ou Nous Trouvez ?</a></li>
-                <li><a href="./contact.html">Nous Contactez !</a></li>
-                <li><a href="#">Nos Partenaires</a></li>
+                <ul class="sous-menu">
+                    <li><a href="#">Présentation</a></li>
+                    <li><a href="#">Ou Nous Trouvez ?</a></li>
+                    <li><a href="./contact.html">Nous Contactez !</a></li>
+                    <li><a href="#">Nos Partenaires</a></li>
                 </ul>
             </li>
             <li><a href="./gazette.html" target="_self">La Gazette du Boulanger</a></li>
             <li class="deroulant"><a href="#">Nos Produits</a>
-                <ul class="sous">
-                <li><a href="#">Nos Pains</a></li>
-                <li><a href="#">Nos Douceurs</a></li>
-                <li><a href="#">Anciens Produits</a></li>
+                <ul class="sous-menu">
+                    <li><a href="#">Nos Pains</a></li>
+                    <li><a href="#">Nos Douceurs</a></li>
+                    <li><a href="#">Anciens Produits</a></li>
                 </ul>
             </li>
             <li class="deroulant"><a href="./creation-connection.html">Mon Compte</a>
-                <ul class="sous">
-                <li><a href="#">Mes Infos</a></li>
-                <li><a href="#">Mes Commandes</a></li>
-                <li><a href="#">Mes Avoirs, Promotions, Réductions</a></li>
+                <ul class="sous-menu">
+                    <li><a href="#">Mes Infos</a></li>
+                    <li><a href="#">Mes Commandes</a></li>
+                    <li><a href="#">Mes Avoirs, Promotions, Réductions</a></li>
                 </ul>
             </li>
             <li class="deroulant"><a href="#">Mon Panier</a>
                 <ul class="panier">
-                    <ul class="sous">
                         <li>Le Panier</li>
                 </ul>
             </li>
         </ul>
+        
+        <ul class="menu-mobile">   <!-- Menu Deroulant en Version Mobile -->
+            <li class="icon-burger">
+                <a href="./creation-connection.html"><img src="" alt="Icon Compte"></a>
+                <ul class="sous-menu-burger">
+                    <li><a href="#">Mes Infos</a></li>
+                    <li><a href="#">Mes Commandes</a></li>
+                    <li><a href="#">Mes Avoirs, Promotions, Réductions</a></li>
+                </ul>
+            </li>
+            <li class="icon-burger">
+                <img src="" alt="Icon Menu Burger">
+                <ul class="menu-burger">
+                    <li><a href="./accueil.html" target="_self">Accueil</a></li>
+                    <li>Qui Sommes Nous ?
+                        <ul class="sous-menu-burger">
+                            <li><a href="#">Présentation</a></li>
+                            <li><a href="#">Ou Nous Trouvez ?</a></li>
+                            <li><a href="./contact.html">Nous Contactez !</a></li>
+                            <li><a href="#">Nos Partenaires</a></li>
+                        </ul>
+                    </li>
+                    <li>Nos Produits
+                        <ul class="sous-menu-burger">
+                            <li><a href="#">Nos Pains</a></li>
+                            <li><a href="#">Nos Douceurs</a></li>
+                            <li><a href="#">Anciens Produits</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="./gazette.html" target="_self">La Gazette du Boulanger</a></li>
+                </ul>
+            </li>
+            <li class="icon-burger">
+                <img src="" alt="Icon Panier">
+                <ul class="panier">
+                    <li>Le Panier</li>
+            </ul>
+            </li>
+        </ul>
     </nav>
-    <main>
+
+    <main class="accueil">
 
     </main>
     <footer>
-        <a href="./cgu-v.html" target="_self">Conditions Générales de ventes</a>
-        <a href="./mentions-légales.html" target="_self">Mentions Légales</a>
-        <div class="logo">
-            <a href="./accueil.html" target="_self"  class="center"><img src="../Images/L_EpiNature-NewColors-removebg.png" alt="Logo l'EpiNature" title="Logo l'Epinature"  class="center"></a>
+        <div>
+            <a href="" target="_self">Mentions Légales</a>
+            <a href="" target="_self">Conditions Générales de Vente</a>
         </div>
-        <a href="./contact.html" target="_self">Contactez Nous</a>
-        <a href="https://fr-fr.facebook.com/Login.html/" target="_blank" class="lien-icone">
-            <img src="../Images/icone-lien-facebook-removebg.png" title="Facebook" alt="Lien Fcaebook">
-        </a>
+        <div>
+            <a href="./accueil.html"><img src="../Images/banniere-logo.jpg" alt="Bannière-Logo"></a>
+        </div>
+        <div>
+            <a href="" target="_self">Nous Contactez !</a>
+            <a href="" target="_blank"><img src="../Images/icone-lien-facebook-removebg.png" alt=""></a>
+        </div>
     </footer>
 </body>
-
-</html>
