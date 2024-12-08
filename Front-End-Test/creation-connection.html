@@ -7,6 +7,7 @@
         <title>L'EpiNature</title>
         <!-- Fiches CSS -->
         <link rel="stylesheet" href="./style.css">
+        <link rel="stylesheet" href="./form.css">
         <!-- Google Font -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -42,7 +43,7 @@
                     <li><a href="#">Anciens Produits</a></li>
                     </ul>
                 </li>
-                <li class="deroulant"><a href="#">Mon Compte</a>
+                <li class="deroulant"><a href="./creation-connection.html">Mon Compte</a>
                     <ul class="sous">
                     <li><a href="#">Mes Infos</a></li>
                     <li><a href="#">Mes Commandes</a></li>
@@ -53,37 +54,60 @@
             </ul>
         </nav>
     
-        <main>
-            <section class="form-create">
+        <main class="contenu">
+            <div class="form-create">
                 <h2>REJOIGNEZ NOUS</h2>
                 <form method="" action="">
-                    <label for="nom">Nom :</label>
-                    <input type="text" name="nom" id="nom" placeholder="Ex: " required/>
-                    <label for="prenom">Prénom :</label>
-                    <input type="text" name="prenom" id="prenom" placeholder="Ex: " required/>
-                    <label for="email">Adresse Mail :</label>
-                    <input type="email" name="email" id="email" placeholder="Ex: adresse@test.fr"/>
-                    <label for="tel">Numéro de Téléphone :</label>
-                    <input type="tel" name="tel" id="tel" placeholder="Ex: " required>
-                    <label for="password">Mot de Passe :</label>
-                    <input type="password" name="password" id="password" required>
-                    <label for="password">Confirmer Mot de Passe :</label>
-                    <input type="password" name="password" id="password" required>
-                    <input type="submit" value="CREER VOTRE COMPTE" class="link" />
+                    <div>
+                        <label for="nom">Nom :</label>
+                        <input type="text" name="nom" id="nom" placeholder="Ex: " required/>
+                    </div>
+                    <div>
+                        <label for="prenom">Prénom :</label>
+                        <input type="text" name="prenom" id="prenom" placeholder="Ex: " required/>
+                    </div>
+                    <div>
+                        <label for="email">Adresse Mail :</label>
+                        <input type="email" name="email" id="email" placeholder="Ex: adresse@test.fr"/>
+                    </div>
+                    <div>
+                        <label for="tel">Numéro de Téléphone :</label>
+                        <input type="tel" name="tel" id="tel" placeholder="Ex: " required>
+                    </div>
+                    <div>
+                        <label for="password">Mot de Passe :</label>
+                        <input type="password" name="password" id="password" required>
+                    </div>
+                    <div>
+                        <label for="password">Confirmer Mot de Passe :</label>
+                        <input type="password" name="password" id="password" required>
+                    </div>
+                    <div>
+                        <input type="submit" value="CREER VOTRE COMPTE" class="link" />
+                    </div>
                 </form>
-            </section>
-            <section class="form-connect">
+            </div>
+            <div class="form-connect">
                 <h2>CONNECTEZ VOUS</h2>
                 <form method="" action="">
-                    <label for="email">Adresse Mail :</label>
-                    <input type="email" name="email" id="email" placeholder="Ex: " required/>
-                    <label for="password">Mot de Passe :</label>
-                    <input type="password" name="password" id="password" required>
-                    <label for="password">Confirmer Mot de Passe :</label>
-                    <input type="password" name="password" id="password" required>
-                    <input type="submit" value="CONNEXION" class="link" />
+                    <div>
+                        <label for="email">Adresse Mail :</label>
+                        <input type="email" name="email" id="email" placeholder="Ex: " required/>
+                    </div>
+                    <div>
+                        <label for="password">Mot de Passe :</label>
+                        <input type="password" name="password" id="password" required>
+                    </div>
+                    <div>
+                        <label for="password">Confirmer Mot de Passe :</label>
+                        <input type="password" name="password" id="password" required>
+                    </div>
+                    <div>
+                        <input type="submit" value="CONNEXION" class="link" />
+                    </div>
+                    <div>
                 </form>
-            </section>
+            </div>
         </main>
         <footer>
             <a href="./cgu-v.html" target="_self">Conditions Générales de ventes</a>

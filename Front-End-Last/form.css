@@ -1,0 +1,57 @@
+
+.contenu{
+    width: 60%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 2;
+}
+
+.contenu div{
+    width: 350px;
+    padding: 10px 50px;
+    margin: 20px 40px;
+    background-color: #BA3E25;
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    align-self: center;
+}
+
+.contenu div label{
+    margin-bottom: 5px
+}
+
+.form-create{
+    grid-column: 1;
+}
+
+.form-connect{
+    grid-column: 2;
+}
+
+.form-contact{
+    grid-column: 1;
+}
+
+.info-contact{
+    grid-column: 2;
+}
+
+form div{
+    margin: auto;
+}
+
+form textarea{
+    background-color: #EBD2A6;
+}
+
+form input{
+    background-color: #EBD2A6;
+    height: 24px;
+}
+
+ form .link{
+    border-radius: 10px;
+    height: 40px;
+ }
+
