@@ -9,8 +9,12 @@
     --blackEarth: #1F1206;
 
     /*  Valeurs  */
-
     --height-menu: 60px;
+
+    /* Font Style */
+    --Pangolin : Pangolin;
+    --Belanosima : Belanosima;
+
 }
 
 *{
@@ -358,8 +362,8 @@ header{
 }
 
 footer{
-    background-color: #BA3E25;
-    color: #1F1206;
+    background-color: var(--darkBrick);
+    color: var(--blackEarth);
     display: grid;
     grid-template-columns: 25% 50% 25%;
     grid-template-rows: 1fr;
@@ -397,7 +401,7 @@ footer{
     }
 
     div:nth-child(odd) a:hover{
-        color: #FFD700;
+        color: var(--goldWheat);
         transform: scale(1.2);
     }
 }

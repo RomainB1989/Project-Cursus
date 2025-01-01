@@ -58,6 +58,7 @@
             button{
                 width: 200px;
                 padding: 5px 25px;
+                margin: 10px 0px;
                 font-family: Pangolin;
                 font-size: 20px;
                 border: solid var(--blackEarth);
