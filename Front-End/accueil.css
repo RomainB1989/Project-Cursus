@@ -36,13 +36,13 @@
     .annonce{
         margin: 20px 0px;
         padding: 30px 0px;
-        background-color: var(--darkBrick);
-        color: var(--flour);
+        background-color: var(--darkBrick2);
         border-radius: 20px;
         animation-name: annonce;
         animation-duration: 0.5s;
 
         p{
+            color: var(--flour);
             padding: 10px 0px;
             font-family: Belanosima;
             text-align: center;
