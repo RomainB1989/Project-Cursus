@@ -97,7 +97,8 @@ header{
                 text-align: center;
 
                 li{
-                    background-color: rgba(186, 62, 37, 0.8);
+                    background-color: var(--darkBrick2);
+                    /* background-color: rgba(186, 62, 37, 0.8); */
                     a{
                         color: var(--blackEarth);
                     }

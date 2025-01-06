@@ -16,7 +16,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Belanosima:wght@400;600;700&display=swap" rel="stylesheet">
     <!-- Liens Js -->
     <script src="./accueil.js" defer></script>
-    <script src="./creation-connection.js" defer></script>
+    <!-- <script src="./creation-connection.js" defer></script> -->
 </head>
 <body>
     <header title="Bannière Header" >
@@ -128,19 +128,19 @@
                 </div>
                 <div>
                     <label for="email">Adresse Mail :</label>
-                    <input type="email" name="email" id="email" placeholder="Ex: adresse@test.fr"/>
+                    <input type="email" name="email" id="email" placeholder="Ex: adresse@test.fr"  autocomplete="on"/>
                 </div>
                 <div>
                     <label for="tel">Numéro de Téléphone :</label>
-                    <input type="tel" name="tel" id="tel" placeholder="Ex: " required>
+                    <input type="tel" name="tel" id="tel" placeholder="Ex: " required  autocomplete="on">
                 </div>
                 <div>
                     <label for="password">Mot de Passe :</label>
                     <input type="password" name="password" id="password" required>
                 </div>
                 <div>
-                    <label for="password">Confirmer Mot de Passe :</label>
-                    <input type="password" name="password" id="password" required>
+                    <label for="password2">Confirmer Mot de Passe :</label>
+                    <input type="password" name="password2" id="password2" required>
                 </div>
                 <div>
                     <input type="submit" value="CREER VOTRE COMPTE" class="link" />
@@ -152,15 +152,15 @@
             <form id="connect" method="" action="">
                 <div>
                     <label for="email">Adresse Mail :</label>
-                    <input type="email" name="email" id="email" placeholder="Ex: " required/>
+                    <input type="email" name="email" id="email" placeholder="Ex: " required  autocomplete="on"/>
                 </div>
                 <div>
                     <label for="password">Mot de Passe :</label>
                     <input type="password" name="password" id="password" required>
                 </div>
                 <div>
-                    <label for="password">Confirmer Mot de Passe :</label>
-                    <input type="password" name="password" id="password" required>
+                    <label for="password2">Confirmer Mot de Passe :</label>
+                    <input type="password" name="password2" id="password2" required>
                 </div>
                 <div>
                     <input type="submit" value="CONNEXION" class="link" />
@@ -168,6 +168,7 @@
                 <div>
             </form>
         </div>
+        <script src="./creation-connection.js"></script>
     </main>
 
     <footer>
